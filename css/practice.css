@@ -9,7 +9,7 @@
 }
 
 .menu-header {
-    grid-column-start: 5;
+    grid-column-start: 4;
     grid-column-end: 11;
     width: 100%;
 }
@@ -18,7 +18,7 @@
 
 
 .wrap-body{
-    padding: 0px 450px;
+    padding: 0px 300px;
 }
 
 .row{
@@ -167,8 +167,8 @@
 
 .box-image2{
     background-image: url('../images/16.jpg');
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 300px;
 }
 
 
@@ -193,4 +193,8 @@
 .col-2-3{
     display: grid;
     grid-template-columns: 1fr;
+}
+
+.content-box{
+    background: white;
 }
